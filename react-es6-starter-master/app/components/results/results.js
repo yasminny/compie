@@ -87,7 +87,7 @@ export default class results extends React.Component {
     console.log(branches);
 
     return branches.map((item, index)=>{
-      return <div key={index}>{ item.network} : { item.branch } distance: { item.distance }</div>
+      return <div key={index}>{ item.network} : { item.branch } distance: { item.distance } in km</div>
     })
   }
 
