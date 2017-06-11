@@ -1,0 +1,45 @@
+main,
+header,
+footer,
+figcaption,
+section,
+div,
+h1,
+ul,
+li,
+h2,
+h3,
+p,
+a {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body,
+.app {
+  font: 100% 'Source Sans Pro', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+main,
+.my-location-comp {
+  width: 100%;
+  height: 100%;
+}
