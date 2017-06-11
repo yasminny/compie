@@ -84,7 +84,9 @@ export default class results extends React.Component {
         });
       }
     }
-    console.log(branches);
+    branches.sort(function (a, b) {
+      return a.distance - b.distance;
+    });
 
     return branches.map((item, index)=>{
       return <div key={index}>{ item.network} : { item.branch } distance: { item.distance } in km</div>
